@@ -25,6 +25,10 @@ app.get('/summary/:id', async (request, response) => {
   
 });
 
+app.get("/", (req, res) => {
+  res.send("Recebido (meu pau no seu umbigo)")
+})
+
 app.post("/summary", async (request, response) => {
   try {
     const  result = await summarize(request.body.text);
