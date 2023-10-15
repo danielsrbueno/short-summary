@@ -1,0 +1,39 @@
+#app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#app > h1 {
+    color: #996dff;
+    margin-top: -5px;
+}
+
+#app > h1::before {
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: #996dff;
+    left: calc(50% - 50px);
+    top: 36%;
+    filter: blur(100px);
+}
+
+#app > h2 {
+    align-self: flex-start;
+    margin: 64px 0;
+}
+
+#app > p {
+    align-self: flex-start;
+    text-align: justify;
+    width: 512px;
+    margin: -50px 0;
+}
+
+#app .placeholder {
+    color: #7c7c8a;
+    user-select: none;    
+}
