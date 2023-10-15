@@ -1,20 +1,5 @@
 {
     "version": 2,
-    "builds": [
-      {
-        "src": "package.json",
-        "use": "@vercel/node"
-      }
-    ],
-    "routes": [
-      { "handle": "filesystem" },
-      { "src": "/(.*)", "dest": "/index.js" }
-    ],
-    "env": {
-      "NODE_ENV": "production"
-    },
-    "scripts": {
-      "build": "npm run build",
-      "start": "node ./server/index.js"
-    }
-  }
+    "builds": [{ "src": "server/index.js", "use": "@now/node" }],
+    "routes": [{ "src": "/(.*)", "dest": "/server/index.js" }]
+}
