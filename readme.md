@@ -1,4 +1,4 @@
-# Age Calculator App
+# Short Summary
 
 #### Projeto desenvolvido durante o evento NLW IA da Rocketseat, meu projeto com Express. Coloque o URL de um vídeo Shorts e magicamente (uma inteligencia artificial) você irá obter o resumo do vídeo! 
 
@@ -8,7 +8,7 @@
 
 ### 💻📱 Screenshots
 
-![Desktop Screenshot](img/previewDesktop.png)
+![Desktop Screenshot](public/short-summary.png)
 
 ![Mobile Screenshot](img/previewMobile.png)
 
