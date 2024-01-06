@@ -6,11 +6,9 @@
 ### 🔗 Links
 [![Project page](https://img.shields.io/badge/ACESSAR%20A%20PÁGINA-purple)](https://short-summary-nu.vercel.app/)
 
-### 💻📱 Screenshots
+### 💻📱 Screenshot
 
 ![Desktop Screenshot](public/short-summary.png)
-
-![Mobile Screenshot](img/previewMobile.png)
 
 
 ### 🛠 Funcionalidades
